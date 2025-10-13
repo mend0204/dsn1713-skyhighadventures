@@ -6,6 +6,7 @@
   font-weight: 500;
   color: #333;
 }
+
 .nav-link:hover {
   color: #0d6efd;
 }
@@ -20,23 +21,7 @@
   border-radius: 20px;
 }
 
-@media (max-width: 430px) {
-  .search-form input,
-  .btn-primary {
-    width: 100%;
-  }
-}
-
-
-@media (min-width: 431px) and (max-width: 1024px) {
-  .search-form input,
-  .btn-primary {
-    width: 150px; 
-  }
-}
-
-
-@media (min-width: 1025px) {
+@media (min-width: 992px) {
   .search-form input {
     width: 200px;
   }
@@ -53,3 +38,41 @@
 .offcanvas-body .nav-link {
   padding-left: 0;
 }
+
+.hero-section {
+  background-image: url('../images/golden-ascent-climbers-scaling-mountain-peak-at-sunrise-free-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  padding: 100px 20px;
+}
+
+.small-heading {
+  font-family: 'Impact', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.big-heading {
+  font-family: 'Impact', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-subheading {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+
